@@ -3,6 +3,9 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import CONSTANTS from '../../constants.js';
 
+/*
+test commit for github
+*/
 const Logo = ({ to, ...props }) => (
   <Link to={to}>
     <img {...props} />
