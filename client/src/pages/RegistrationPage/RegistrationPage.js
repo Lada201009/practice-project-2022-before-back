@@ -7,7 +7,7 @@ import RegistrationForm
 import styles from './RegistrationPage.module.sass';
 import { clearErrorSignUpAndLogin } from '../../actions/actionCreator';
 import CONSTANTS from '../../constants';
-import ArticlesRegList from '../../components/ArticlesRegList';
+import ArticlesRegList from '../../components/ArticlesRegList/ArticlesRegList';
 
 const RegistrationPage = (props) => {
   props.clearError();
